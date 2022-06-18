@@ -9,12 +9,12 @@
         "RepoUrl": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 6,
-        "DownloadLinkInstall": "https://github.com/Matthew-Rennie/BisBunToolkit-distrub/raw/main/plugins/BisBunToolkit/latest.zip",
+        "DownloadLinkInstall": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/main/plugins/BisBunToolkit/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/Matthew-Rennie/BisBunToolkit-distrub/raw/main/plugins/BisBunToolkit/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/Matthew-Rennie/BisBunToolkit-distrub/raw/main/plugins/BisBunToolkit/latest.zip",
+        "DownloadLinkTesting": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/main/plugins/BisBunToolkit/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/main/plugins/BisBunToolkit/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1655548560"
+        "LastUpdate": "1655550296"
     }
 ]
