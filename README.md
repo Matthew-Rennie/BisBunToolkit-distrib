@@ -7,7 +7,7 @@ First open the Dalamud Settings menu in the game, accessible through typing `/xl
 
 Then follow the image:
 1. Click the "Experimental" tab.
-2. Paste `https://raw.githubusercontent.com/Matthew-Rennie/BisBunToolkit-distrub/main/pluginmaster.json` into the empty box at the bottom of the "Custom Plugin Repositories" section (the last box will always have a + next to it).
+2. Paste `https://raw.githubusercontent.com/Matthew-Rennie/BisBunToolkit-distrib/main/pluginmaster.json` into the empty box at the bottom of the "Custom Plugin Repositories" section (the last box will always have a + next to it).
 3. Click the + button.
 4. Click the "Save and Close" button.
 
