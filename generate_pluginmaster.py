@@ -13,7 +13,7 @@ DEFAULTS = {
     'IsHide': False,
     'IsTestingExclusive': False,
     'ApplicableVersion': 'any',
-    'IconUrl': ICON_URL, 
+    'IconUrl': ICON_URL.format(branch=BRANCH, plugin_name=manifest["InternalName"]), 
 }
 
 DUPLICATES = {
