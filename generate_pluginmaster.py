@@ -71,7 +71,7 @@ def add_extra_fields(manifests):
     for manifest in manifests:
         # generate the download link from the internal assembly name
         manifest['DownloadLinkInstall'] = DOWNLOAD_URL.format(branch=BRANCH, plugin_name=manifest["InternalName"])
-        manifest['IconUrl'] = ICON_URL.format(branch=BRANCH, plugin_name=manifest["InternalName"]), 
+        manifest['IconUrl'] = ICON_URL.format(branch=BRANCH, plugin_name=manifest["InternalName"])
 
 
         # add default values if missing
