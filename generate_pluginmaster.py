@@ -12,6 +12,7 @@ DEFAULTS = {
     'IsHide': False,
     'IsTestingExclusive': False,
     'ApplicableVersion': 'any',
+    'IconUrl': 'https://github.com/Matthew-Rennie/BisBunToolkit-distrib/blob/{branch}/icons/{plugin_name}.png', 
 }
 
 DUPLICATES = {
