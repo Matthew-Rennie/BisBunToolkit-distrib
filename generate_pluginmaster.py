@@ -7,12 +7,13 @@ from zipfile import ZipFile, ZIP_DEFLATED
 
 BRANCH = os.environ['GITHUB_REF'].split('refs/heads/')[-1]
 DOWNLOAD_URL = 'https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/{branch}/plugins/{plugin_name}/latest.zip'
+ICON_URL = 'https://github.com/Matthew-Rennie/BisBunToolkit-distrib/blob/{branch}/icons/{plugin_name}.png'
 
 DEFAULTS = {
     'IsHide': False,
     'IsTestingExclusive': False,
     'ApplicableVersion': 'any',
-    'IconUrl': 'https://github.com/Matthew-Rennie/BisBunToolkit-distrib/blob/{branch}/icons/{plugin_name}.png', 
+    'IconUrl': ICON_URL, 
 }
 
 DUPLICATES = {
