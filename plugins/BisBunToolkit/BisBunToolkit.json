@@ -8,5 +8,6 @@
   "RepoUrl": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib",
   "DalamudApiLevel": 6,
   "LoadPriority": 0,
+  "IconUrl": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/blob/main/icons/BisBunToolkit.png",
   "Punchline": "Buns <3"
 }
