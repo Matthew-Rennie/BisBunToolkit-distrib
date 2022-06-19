@@ -7,11 +7,13 @@ from zipfile import ZipFile, ZIP_DEFLATED
 
 BRANCH = os.environ['GITHUB_REF'].split('refs/heads/')[-1]
 DOWNLOAD_URL = 'https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/{branch}/plugins/{plugin_name}/latest.zip'
+ICON_URL = 'https://github.com/Matthew-Rennie/BisBunToolkit-distrib/blob/{branch}/icons/{plugin_name}.png'
 
 DEFAULTS = {
     'IsHide': False,
     'IsTestingExclusive': False,
     'ApplicableVersion': 'any',
+    'IconUrl': "",
 }
 
 DUPLICATES = {
@@ -69,6 +71,9 @@ def add_extra_fields(manifests):
     for manifest in manifests:
         # generate the download link from the internal assembly name
         manifest['DownloadLinkInstall'] = DOWNLOAD_URL.format(branch=BRANCH, plugin_name=manifest["InternalName"])
+        manifest['IconUrl'] = ICON_URL.format(branch=BRANCH, plugin_name=manifest["InternalName"]), 
+
+
         # add default values if missing
         for k, v in DEFAULTS.items():
             if k not in manifest:
