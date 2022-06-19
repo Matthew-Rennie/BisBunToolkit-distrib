@@ -12,9 +12,10 @@
         "DownloadLinkInstall": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/main/plugins/BisBunToolkit/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
+        "IconUrl": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/blob/{branch}/icons/{plugin_name}.png",
         "DownloadLinkTesting": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/main/plugins/BisBunToolkit/latest.zip",
         "DownloadLinkUpdate": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/main/plugins/BisBunToolkit/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1655673603"
+        "LastUpdate": "1655674041"
     }
 ]
