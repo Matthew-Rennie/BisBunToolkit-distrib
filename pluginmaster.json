@@ -5,7 +5,7 @@
         "Punchline": "Buns <3",
         "Description": "Plugin for use by the Bis Buns FC",
         "InternalName": "BisBunToolkit",
-        "AssemblyVersion": "1.0.0.0",
+        "AssemblyVersion": "1.0.1.0",
         "RepoUrl": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 6,
@@ -16,6 +16,6 @@
         "DownloadLinkTesting": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/main/plugins/BisBunToolkit/latest.zip",
         "DownloadLinkUpdate": "https://github.com/Matthew-Rennie/BisBunToolkit-distrib/raw/main/plugins/BisBunToolkit/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1655983839"
+        "LastUpdate": "1656195504"
     }
 ]
